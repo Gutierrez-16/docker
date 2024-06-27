@@ -1,0 +1,54 @@
+/* sidebarStyle.css */
+
+.sidebar {
+    background-color: #f0f0f0; /* Color de fondo gris claro */
+    padding: 20px; /* Espaciado interno */
+    height: 100%; /* Ocupa toda la altura disponible */
+    width: 250px; /* Ancho fijo */
+    position: fixed; /* Fijar posición */
+    left: 0;
+    top: 60px; /* Espacio superior respecto al navbar */
+    overflow-y: auto; /* Scroll si es necesario */
+    border-right: 1px solid #ccc; /* Borde a la derecha */
+}
+
+.sidebar ul {
+    list-style-type: none; /* Quitar viñetas de lista */
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 15px; /* Espaciado entre elementos */
+}
+
+.sidebar a {
+    display: block; /* Mostrar como bloque para ocupar ancho completo */
+    padding: 12px 15px; /* Espaciado dentro de cada enlace */
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transiciones suaves */
+}
+
+.sidebar a:hover {
+    background-color: #4e94d4; /* Color de fondo azul celeste al pasar el mouse */
+    color: #fff; /* Color de texto blanco al pasar el mouse */
+}
+
+.sidebar .active a {
+    background-color: #007bff; /* Color de fondo para el enlace activo */
+    color: #fff; /* Color de texto para el enlace activo */
+}
+
+/* Estilo para el scrollbar */
+.sidebar::-webkit-scrollbar {
+    width: 8px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background-color: #f0f0f0;
+}
