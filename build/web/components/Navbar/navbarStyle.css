@@ -49,7 +49,7 @@
 }
 
 .sidebar ul {
-    list-style-type: none; /* Quitar viñetas de lista */
+    list-style-type: none; 
     padding: 0;
 }
 
