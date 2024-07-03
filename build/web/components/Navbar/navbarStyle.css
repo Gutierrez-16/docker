@@ -35,17 +35,16 @@
     text-decoration: underline;
 }
 
-/* Sidebar */
 .sidebar {
-    background-color: #4e94d4; /* Color de fondo celeste azul elegante */
-    padding: 20px; /* Espaciado interno */
-    height: 100%; /* Ocupa toda la altura disponible */
-    width: 250px; /* Ancho fijo */
-    position: fixed; /* Fijar posición */
+    background-color: #4e94d4; 
+    padding: 20px; 
+    height: 100%; 
+    width: 250px; 
+    position: fixed; 
     left: 0;
-    top: 60px; /* Espacio superior respecto al navbar */
-    overflow-y: auto; /* Scroll si es necesario */
-    border-right: 1px solid #ccc; /* Borde a la derecha */
+    top: 60px; 
+    overflow-y: auto;
+    border-right: 1px solid #ccc; 
 }
 
 .sidebar ul {
@@ -54,11 +53,11 @@
 }
 
 .sidebar li {
-    margin-bottom: 15px; /* Espaciado entre elementos */
+    margin-bottom: 15px; 
 }
 
 .sidebar a {
-    display: block; /* Mostrar como bloque para ocupar ancho completo */
+    display: block; 
     padding: 12px 15px; /* Espaciado dentro de cada enlace */
     color: white;
     text-decoration: none;
