@@ -1,6 +1,8 @@
+/* styles.css */
 
+/* Navbar */
 .navbar {
-    background-color: #4e94d4; 
+    background-color: #4e94d4; /* Color de fondo celeste azul elegante */
     color: white;
     padding: 10px;
     height: 50px;
@@ -11,8 +13,8 @@
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 1000; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    z-index: 1000; /* Asegura que esté por encima del contenido */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
 .navbar-brand {
@@ -35,29 +37,30 @@
     text-decoration: underline;
 }
 
+/* Sidebar */
 .sidebar {
-    background-color: #4e94d4; 
-    padding: 20px; 
-    height: 100%; 
-    width: 250px; 
-    position: fixed; 
+    background-color: #4e94d4; /* Color de fondo celeste azul elegante */
+    padding: 20px; /* Espaciado interno */
+    height: 100%; /* Ocupa toda la altura disponible */
+    width: 250px; /* Ancho fijo */
+    position: fixed; /* Fijar posición */
     left: 0;
-    top: 60px; 
-    overflow-y: auto;
-    border-right: 1px solid #ccc; 
+    top: 60px; /* Espacio superior respecto al navbar */
+    overflow-y: auto; /* Scroll si es necesario */
+    border-right: 1px solid #ccc; /* Borde a la derecha */
 }
 
 .sidebar ul {
-    list-style-type: none; 
+    list-style-type: none; /* Quitar viñetas de lista */
     padding: 0;
 }
 
 .sidebar li {
-    margin-bottom: 15px; 
+    margin-bottom: 15px; /* Espaciado entre elementos */
 }
 
 .sidebar a {
-    display: block; 
+    display: block; /* Mostrar como bloque para ocupar ancho completo */
     padding: 12px 15px; /* Espaciado dentro de cada enlace */
     color: white;
     text-decoration: none;
